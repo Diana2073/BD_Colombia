@@ -1,0 +1,357 @@
+{
+  "resources": [
+    {
+      "name": "bd_col_alsea_final",
+      "type": "table",
+      "path": "BD_Col_Alsea_final.xlsx",
+      "scheme": "file",
+      "format": "xlsx",
+      "mediatype": "application/vnd.ms-excel",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Cod_dpto",
+            "type": "integer"
+          },
+          {
+            "name": "Departamento",
+            "type": "string"
+          },
+          {
+            "name": "Cod_munic",
+            "type": "integer"
+          },
+          {
+            "name": "Municipio",
+            "type": "string"
+          },
+          {
+            "name": "Longitud",
+            "type": "string"
+          },
+          {
+            "name": "Latitud",
+            "type": "string"
+          },
+          {
+            "name": "Fecha",
+            "type": "integer"
+          },
+          {
+            "name": "Preocupación por no tener suficientes alimentos para comer (%)",
+            "type": "geopoint"
+          },
+          {
+            "name": "El hogar consumió poca variedad de alimentos (%)",
+            "type": "geopoint"
+          },
+          {
+            "name": "El hogar no pudo comer alimentos saludables y nutritivos (%)",
+            "type": "geopoint"
+          },
+          {
+            "name": "Al menos un integrante del hogar comió menos de lo que pensaba que debía comer (%)",
+            "type": "geopoint"
+          },
+          {
+            "name": "Al menos un integrante del hogar tuvo que saltar una comida (%)",
+            "type": "geopoint"
+          },
+          {
+            "name": "Al menos un integrante del hogar tuvo hambre pero no comió (%)",
+            "type": "geopoint"
+          },
+          {
+            "name": "El hogar se quedó sin alimentos (%)",
+            "type": "geopoint"
+          },
+          {
+            "name": "Al menos un integrante del hogar no comió en un día entero (%)",
+            "type": "geopoint"
+          },
+          {
+            "name": "Prevalencia de la inseguridad alimentaria moderada o grave en hogares (%).",
+            "type": "geopoint"
+          },
+          {
+            "name": "Prevalencia de la inseguridad alimentaria grave en hogares (%).",
+            "type": "geopoint"
+          },
+          {
+            "name": "Nacimientos totales 2023",
+            "type": "integer"
+          },
+          {
+            "name": "Prevalencia de macrosomía. Fuente: DANE. EEVV. 2023 (datos departamentales)",
+            "type": "integer"
+          },
+          {
+            "name": "Prevalencia de bajo peso al nacer. Fuente: DANE. EEVV. 2023 (datos departamentales)",
+            "type": "integer"
+          },
+          {
+            "name": "Prevalencia de normopeso al nacer. Fuente: DANE. EEVV. 2023 (datos departamentales)",
+            "type": "integer"
+          },
+          {
+            "name": "Hombres",
+            "type": "integer"
+          },
+          {
+            "name": "Mujeres",
+            "type": "integer"
+          },
+          {
+            "name": "%Hombres",
+            "type": "number"
+          },
+          {
+            "name": "%Mujeres",
+            "type": "number"
+          },
+          {
+            "name": "Índice de Pobreza Multidimensional",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Analfabetismo",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Bajo logro educativo",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Barreras a servicios para cuidado de la primera infancia",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Barreras de acceso a servicios de salud",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Desempleo de larga duración",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Hacinamiento crítico",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Inadecuada eliminación de excretas",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Inasistencia escolar",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Material inadecuado de paredes exteriores",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Material inadecuado de pisos",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Rezago escolar",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Sin acceso a fuente de agua mejorada",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Sin aseguramiento en salud",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Trabajo infantil",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Trabajo informal",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Prop de Personas en NBI (%)",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Prop de Personas en miseria",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Componente vivienda",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Componente Servicios",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Componente Hacinamiento",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Componente Inasistencia",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Componente dependencia económica",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Total hogares",
+            "type": "yearmonth"
+          },
+          {
+            "name": "hogares con menores de 15 años",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Total menores de 15 años",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Total viviendas",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Casa",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Apartamento",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Tipo cuarto",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Vivienda tradicional indígena",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Vivienda tradicional étnica",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Otro tipo de vivienda (carpa, barco, refugio natural, cueva)",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Energía eléctrica",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Acueducto",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Alcantarillado",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Gas por red",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Recolección de basuras",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Internet",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Personas en hogares particulares",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Sin servicio de energía eléctrica",
+            "type": "yearmonth"
+          },
+          {
+            "name": "No tiene estrato",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Estrato 1",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Estrato 2",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Estrato 3",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Estrato 4",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Estrato 5",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Estrato 6",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Estrato     No sabe o no responde",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Total población",
+            "type": "yearmonth"
+          },
+          {
+            "name": "0-4 años",
+            "type": "yearmonth"
+          },
+          {
+            "name": "5-9 años",
+            "type": "yearmonth"
+          },
+          {
+            "name": "10-14 años",
+            "type": "yearmonth"
+          },
+          {
+            "name": "15-19 años",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Retraso en talla menores de 5 años",
+            "type": "yearmonth"
+          },
+          {
+            "name": "DNT global menores de 5 años",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Sobrepeso u obesidad menores de 5 años",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Retraso del crecimiento en talla de 5 a 17 años",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Sobrepeso y obesidad de 5 a 17 años",
+            "type": "yearmonth"
+          },
+          {
+            "name": "Afiliación al régimen subsidiado de salud. : Fuente: BDUACUBO_Sispro, MSPS.2024",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
